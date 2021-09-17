@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f59bd2d731a318006be1abb54b56494a",
+    "content-hash": "07b818a48f5c9bcda7ac49d4f5e0c4d0",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2810,16 +2810,16 @@
         },
         {
             "name": "rahulhaque/laravel-filepond",
-            "version": "v1.2.5",
+            "version": "dev-dev",
             "source": {
                 "type": "git",
-                "url": "https://github.com/nishalgurung4/laravel-filepond.git",
-                "reference": "bacce26dc71aa488bca7acacbe6b35592ee85ac9"
+                "url": "https://github.com/rahulhaque/laravel-filepond.git",
+                "reference": "1057cf429a5b9059ea7e39bd8c5b73370cb735a8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nishalgurung4/laravel-filepond/zipball/bacce26dc71aa488bca7acacbe6b35592ee85ac9",
-                "reference": "bacce26dc71aa488bca7acacbe6b35592ee85ac9",
+                "url": "https://api.github.com/repos/rahulhaque/laravel-filepond/zipball/1057cf429a5b9059ea7e39bd8c5b73370cb735a8",
+                "reference": "1057cf429a5b9059ea7e39bd8c5b73370cb735a8",
                 "shasum": ""
             },
             "require": {
@@ -2846,19 +2846,7 @@
                     "RahulHaque\\Filepond\\": "src"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "RahulHaque\\Filepond\\Tests\\": "tests"
-                }
-            },
-            "scripts": {
-                "test": [
-                    "vendor/bin/phpunit"
-                ],
-                "test-coverage": [
-                    "vendor/bin/phpunit --coverage-html coverage"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -2877,9 +2865,10 @@
                 "laravel-filepond"
             ],
             "support": {
-                "source": "https://github.com/nishalgurung4/laravel-filepond/tree/v1.2.5"
+                "issues": "https://github.com/rahulhaque/laravel-filepond/issues",
+                "source": "https://github.com/rahulhaque/laravel-filepond/tree/dev"
             },
-            "time": "2021-08-05T11:18:17+00:00"
+            "time": "2021-09-17T08:08:45+00:00"
         },
         {
             "name": "ralouphie/getallheaders",
@@ -8998,7 +8987,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "rahulhaque/laravel-filepond": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {

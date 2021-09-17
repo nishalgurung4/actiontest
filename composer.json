@@ -12,7 +12,7 @@
         "laravel/framework": "^8.54",
         "laravel/sanctum": "^2.11",
         "laravel/tinker": "^2.5",
-        "rahulhaque/laravel-filepond": "^1.2"
+        "rahulhaque/laravel-filepond": "dev-dev"
     },
     "require-dev": {
         "facade/ignition": "^2.5",
@@ -27,10 +27,6 @@
         {
             "type": "vcs",
             "url": "https://github.com/nishalgurung4/php-style"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/nishalgurung4/laravel-filepond.git"
         }
 
     ],

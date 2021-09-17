@@ -9,6 +9,34 @@ on:
 jobs:
   php-cs-fixer:
     runs-on: ubuntu-20.04
+    env:
+      DB_DATABASE: actiontest
+      DB_USERNAME: root
+      DB_HOST: 127.0.0.1
+      DB_PASSWORD: 
+      BROADCAST_DRIVER: log
+      CACHE_DRIVER: redis
+      QUEUE_CONNECTION: redis
+      SESSION_DRIVER: redis    
+    services:
+      mysql:
+        image: mysql:5.7
+        env:
+          MYSQL_ALLOW_EMPTY_PASSWORD: false
+          MYSQL_ROOT_PASSWORD: 
+          MYSQL_DATABASE: actiontest
+        ports:
+          - 3306/tcp
+        options: --health-cmd="mysqladmin ping" --health-interval=10s --health-timeout=5s --health-retries=3
+      redis:
+        image: redis
+        ports:
+          - 6379/tcp
+        options: --health-cmd="redis-cli ping" --health-interval=10s --health-timeout=5s --health-retries=3
+    strategy:
+      fail-fast: false
+      matrix:
+        php-versions: ['8.0']
 
     steps:
       - name: Checkout code

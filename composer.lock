@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3a38ab444247493adf7e455afa0923a2",
+    "content-hash": "f59bd2d731a318006be1abb54b56494a",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2810,16 +2810,16 @@
         },
         {
             "name": "rahulhaque/laravel-filepond",
-            "version": "dev-fix-connection-issue",
+            "version": "v1.2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nishalgurung4/laravel-filepond.git",
-                "reference": "3273385d251538938bdba6224414a0b42d7ebfee"
+                "reference": "bacce26dc71aa488bca7acacbe6b35592ee85ac9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nishalgurung4/laravel-filepond/zipball/3273385d251538938bdba6224414a0b42d7ebfee",
-                "reference": "3273385d251538938bdba6224414a0b42d7ebfee",
+                "url": "https://api.github.com/repos/nishalgurung4/laravel-filepond/zipball/bacce26dc71aa488bca7acacbe6b35592ee85ac9",
+                "reference": "bacce26dc71aa488bca7acacbe6b35592ee85ac9",
                 "shasum": ""
             },
             "require": {
@@ -2877,9 +2877,9 @@
                 "laravel-filepond"
             ],
             "support": {
-                "source": "https://github.com/nishalgurung4/laravel-filepond/tree/fix-connection-issue"
+                "source": "https://github.com/nishalgurung4/laravel-filepond/tree/v1.2.5"
             },
-            "time": "2021-09-16T18:01:49+00:00"
+            "time": "2021-08-05T11:18:17+00:00"
         },
         {
             "name": "ralouphie/getallheaders",
@@ -3152,16 +3152,16 @@
         },
         {
             "name": "stripe/stripe-php",
-            "version": "v7.96.0",
+            "version": "v7.97.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/stripe/stripe-php.git",
-                "reference": "0630fbf3991a8126a747c7bc173e5d3c0dc23b9f"
+                "reference": "ae41c309ce113362706f8d5f19cf0cf2c730bc4a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/0630fbf3991a8126a747c7bc173e5d3c0dc23b9f",
-                "reference": "0630fbf3991a8126a747c7bc173e5d3c0dc23b9f",
+                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/ae41c309ce113362706f8d5f19cf0cf2c730bc4a",
+                "reference": "ae41c309ce113362706f8d5f19cf0cf2c730bc4a",
                 "shasum": ""
             },
             "require": {
@@ -3207,9 +3207,9 @@
             ],
             "support": {
                 "issues": "https://github.com/stripe/stripe-php/issues",
-                "source": "https://github.com/stripe/stripe-php/tree/v7.96.0"
+                "source": "https://github.com/stripe/stripe-php/tree/v7.97.0"
             },
-            "time": "2021-09-15T22:23:38+00:00"
+            "time": "2021-09-16T21:28:33+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -6842,40 +6842,6 @@
             "time": "2020-11-13T09:40:50+00:00"
         },
         {
-            "name": "nishalgurung4/php-style",
-            "version": "dev-main",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/nishalgurung4/php-style.git",
-                "reference": "0c6dfa123cc4a8a8457bc960907295746ab3f735"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/nishalgurung4/php-style/zipball/0c6dfa123cc4a8a8457bc960907295746ab3f735",
-                "reference": "0c6dfa123cc4a8a8457bc960907295746ab3f735",
-                "shasum": ""
-            },
-            "require": {
-                "friendsofphp/php-cs-fixer": "^3.0"
-            },
-            "default-branch": true,
-            "type": "library",
-            "autoload": {
-                "files": [
-                    "./src/helpers.php"
-                ]
-            },
-            "license": [
-                "MIT"
-            ],
-            "description": "Nishal's shared PHP style rules for PHP-CS-Fixer",
-            "support": {
-                "source": "https://github.com/nishalgurung4/php-style/tree/main",
-                "issues": "https://github.com/nishalgurung4/php-style/issues"
-            },
-            "time": "2021-05-19T10:52:22+00:00"
-        },
-        {
             "name": "nunomaduro/collision",
             "version": "v5.9.0",
             "source": {
@@ -7353,23 +7319,23 @@
         },
         {
             "name": "phpunit/php-code-coverage",
-            "version": "9.2.6",
+            "version": "9.2.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "f6293e1b30a2354e8428e004689671b83871edde"
+                "reference": "d4c798ed8d51506800b441f7a13ecb0f76f12218"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/f6293e1b30a2354e8428e004689671b83871edde",
-                "reference": "f6293e1b30a2354e8428e004689671b83871edde",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/d4c798ed8d51506800b441f7a13ecb0f76f12218",
+                "reference": "d4c798ed8d51506800b441f7a13ecb0f76f12218",
                 "shasum": ""
             },
             "require": {
                 "ext-dom": "*",
                 "ext-libxml": "*",
                 "ext-xmlwriter": "*",
-                "nikic/php-parser": "^4.10.2",
+                "nikic/php-parser": "^4.12.0",
                 "php": ">=7.3",
                 "phpunit/php-file-iterator": "^3.0.3",
                 "phpunit/php-text-template": "^2.0.2",
@@ -7418,7 +7384,7 @@
             ],
             "support": {
                 "issues": "https://github.com/sebastianbergmann/php-code-coverage/issues",
-                "source": "https://github.com/sebastianbergmann/php-code-coverage/tree/9.2.6"
+                "source": "https://github.com/sebastianbergmann/php-code-coverage/tree/9.2.7"
             },
             "funding": [
                 {
@@ -7426,7 +7392,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-03-28T07:26:59+00:00"
+            "time": "2021-09-17T05:39:03+00:00"
         },
         {
             "name": "phpunit/php-file-iterator",
@@ -9032,10 +8998,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "rahulhaque/laravel-filepond": 20,
-        "nishalgurung4/php-style": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {

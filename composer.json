@@ -12,7 +12,7 @@
         "laravel/framework": "^8.54",
         "laravel/sanctum": "^2.11",
         "laravel/tinker": "^2.5",
-        "rahulhaque/laravel-filepond": "dev-fix-connection-issue"
+        "rahulhaque/laravel-filepond": "^1.2"
     },
     "require-dev": {
         "facade/ignition": "^2.5",
@@ -20,7 +20,6 @@
         "friendsofphp/php-cs-fixer": "^3.1",
         "laravel/sail": "^1.0.1",
         "mockery/mockery": "^1.4.2",
-        "nishalgurung4/php-style": "dev-main",
         "nunomaduro/collision": "^5.0",
         "phpunit/phpunit": "^9.3.3"
     },
